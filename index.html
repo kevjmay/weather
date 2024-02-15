@@ -8,9 +8,25 @@
     <script defer src="./script.js"></script>
 </head>
 <body>
-    <h1>What is the weather?</h1>
-    <h3>City: <p class="locationSearch">London</p></h3>
-    <h3>Temperature: <p class="temperature">13</p></h3>
+
+    
+
+    <div class="container">
+        <div class="queryContainer">
+            <form action="">
+                <input class="searchInput" type="text" name="searchLocation" id="searchLocation" placeholder="Enter City Name">
+                <button class="submitButton">Search</button>
+            </form>
+        </div>
+        <div class="responseContainer">
+            <h2>City: 
+                <h3 class="locationSearch">London</h3>
+            </h2>
+            <h2> Temperature: 
+                <h3 class="temperature">13 Celsius</h3>
+            </h2>
+        </div>
+    </div>
     
 </body>
 </html>
